@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".StudentMainPag">
+
+    <Space
+        android:layout_width="45dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_weight="0" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:autoSizeTextType="uniform"
+            android:text="Hello"
+            android:textSize="30dp"
+            android:textFontWeight="10"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"/>
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5" />
+
+        <Button
+            android:id="@+id/notifction"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_gravity=""
+            android:layout_weight="0.5"
+            android:text="notifction" />
+
+        <Button
+            android:id="@+id/ordering"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_gravity="right"
+            android:layout_weight="0.5"
+            android:text="ordering" />
+
+        <Button
+            android:id="@+id/profile"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="0.5"
+            android:layout_gravity="left"
+            android:text="profile"
+            tools:layout_editor_absoluteX="158dp"
+            tools:layout_editor_absoluteY="192dp" />
+
+        <Button
+            android:id="@+id/history"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="0.5"
+            android:layout_gravity="right"
+            android:text="history"
+            tools:layout_editor_absoluteX="158dp"
+            tools:layout_editor_absoluteY="192dp" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"/>
+
+        <Button
+            android:id="@+id/cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="cart"
+            tools:layout_editor_absoluteX="158dp"
+            tools:layout_editor_absoluteY="192dp" />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    <Space
+        android:layout_width="45dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0" />
+
+
+
+
+</LinearLayout>
